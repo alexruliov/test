@@ -81,13 +81,11 @@ ul.nav {text-align: center;
     width: 100%;
 	float: left;
 	overflow: hidden;
-    -webkit-box-shadow: 0 0 2px 4px rgba(0,0,0,0.5) ;
-    box-shadow: 0 0 2px 4px rgba(0,0,0,0.5) ;
     border-left: silver;
     border-right: silver;
     border-top: none;
     border-bottom: none;
-    background-color: white;
+    background-color: cornsilk;
 
 }
 
