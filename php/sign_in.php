@@ -1,4 +1,5 @@
 <?php
+
 function validate($user, $pass) {
     /* Заменить соответствующей проверкой имени пользователя
     и пароля - например, проверкой по базе данных */
@@ -25,7 +26,7 @@ if (isset($_COOKIE['login'])) {
     }
 }
 if (isset($username)) {
-    echo  "<div class='velcome'> Welcome, $username. </div>";
+    echo  "<div class='velcome'> Welcome, $username! </div>";
 } else {
     header("Location: ../index.html");;
 }
@@ -57,31 +58,32 @@ if (isset($username)) {
                 <table border="2" width="100%">
                 <caption>Оказываемые услуги</caption>
 
-                        <tr>
-                        <th>Услуги</th>
-                        <th>Цена</th>
-                        <th>Очистить</th>
-                    </tr>
-                    <tr><td>Уборка квартир, домов, офисных , складских, торговых и других помещений после ремонта.</td><td id="ono">3,5</td><td id="ono">3,5</td></tr>
-                    <tr><td>Генеральная уборка помещений</td><td id="ono">4</td><td id="ono">3,5</td></tr>
-                    <tr><td>Ежедневная или периодическая поддерживающая уборка помещений</td><td id="ono">4,5</td><td id="ono">3,5</td></tr>
-                    <tr><td>Мытье окон, элементов остекления балконов и лоджий</td><td id="ono">5</td><td id="ono">3,5</td></tr>
-                    <tr><td>Химчистка мягкой мебели и ковровых покрытий</td><td id="ono">5,5</td><td id="ono">3,5</td></tr>
-                    <tr><td></td><td id="ono">0</td><td id="ono">3,5</td></tr>
-                    <tr><td></td><td id="ono">0</td><td id="ono">3,5</td></tr>
-                    </table>
-                <input type="button" class="butt" action="1.php" value="Сохранить">
-                <input type="button" class="butt" action="2.php" value="Выйти">
 
+                     <tr>
+                     <th>Услуги</th>
+                     <th>Цена</th>
+                     <th>Очистить</th>
+                    </tr>
+                    <tr><td>Уборка квартир, домов, офисных , складских, торговых и других помещений после ремонта.</td><td id="ono">$1000000</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    <tr><td>Генеральная уборка помещений</td><td id="ono">4</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    <tr><td>Ежедневная или периодическая поддерживающая уборка помещений</td><td id="ono">4,5</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    <tr><td>Мытье окон, элементов остекления балконов и лоджий</td><td id="ono">5</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    <tr><td>Химчистка мягкой мебели и ковровых покрытий</td><td id="ono">5,5</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    <tr><td></td><td id="ono">0</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    <tr><td></td><td id="ono">0</td><td id="ono"><a href="../php/out.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
+                    </table>
+                <form>
+                <input type="submit" class="butt" action="" value="Сохранить">
+                <button class="butt" action="php/out.php">Выйти</button>
+                </form>
             </main><!-- .content -->
         </div><!-- .container-->
 
 
 
     </div><!-- .middle-->
-
+</div>
 </div><!-- .wrapper -->
-
 <footer class="footer">
     <strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
 </footer><!-- .footer -->

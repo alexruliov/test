@@ -29,41 +29,31 @@ body {
 
 /* Header
 -----------------------------------------------------------------------------*/
-.header {
+.header {background-image: url(../images/header.png);
+    z-index: -1;
     height: 200px;
+    border: solid 2px white;
 
     }
-.form {margin-top: 7px;
+.sub {width: 160px;
+background-color: #000000;
+color: white;
+border-radius: 3px;
+border: solid 1px white;
+cursor: pointer;
+}
+.form {
+    color: white;
+    margin-top: 7px;
+    margin-right: 5px;
     float: right;
-        font: normal 14px/1 Tahoma, Geneva, sans-serif;}
+    font: normal 16px/ 1.5em Georgia, serif;}
 p.clin {
-   padding-top: 10px;
+   padding-top: 40px;
    text-indent: 60px;
-   font: normal 32px Helvetica, sans-serif;
+   font: normal 42px/1.5em Georgia, serif;
    color: white;
 }
-ul.nav {text-align: center;
-    list-style-type: none;
-    padding-top: 100px;
-    padding-left: 0;
-    margin-left: 0;
-
-}
-.nav li { display: inline; }
-.nav a {font: normal normal bold 18px/1 "Comic Sans MS", cursive, sans-serif;
-    display: inline-block;
-    border: 1px;
-    padding: 5px 15px 5px 15px;
-    background-color:lightskyblue;
-    text-decoration: none;
-    color:white;
-    width: 90px;
-    text-align: center;
-    margin-right: 10px;
-}
-.nav a:link { background-color: lightskyblue;}
-.nav a:hover { background-color: blue; }
-.nav a:active {background-color: deepskyblue; }
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -116,7 +106,7 @@ h2 {text-align: center;
     line-height: 1.5    }
 
 #load {font-style: italic;
-    color: darkblue;
+    color: blue;
     padding-top: 200px;
     margin: 0 auto;
     width: 900px;
