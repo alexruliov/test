@@ -25,7 +25,7 @@ if (isset($_COOKIE['login'])) {
     }
 }
 if (isset($username)) {
-    print "Welcome, $username.";
+    echo  "<div class='velcome'> Welcome, $username. </div>";
 } else {
     header("Location: ../index.html");;
 }
@@ -40,37 +40,38 @@ if (isset($username)) {
     <title>Чысцiня i парадак</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link href="../css/style.css" rel="stylesheet">
-    <script src="../js/jquery-1.11.3.min.js"></script>
-    <script>
-$(document).ready(function(){
-    $("#img1").click (function () {
-        $("#load").load("1.html")})
-        })
-    </script>
-</head>
-
+    <link href="../css/style1.css" rel="stylesheet">
+    </head>
 <body>
-
 <div class="wrapper">
 
     <header class="header">
-        <div class="sitebrand"><p class="clin">Чысцiня i парадак</p></div>
-        <ul class="nav">
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-            <li><a href="2.html">Прайс</a></li>
-            <li><a href="3.html">Отзывы</a></li>
-            <li><a href="4.html">Empty</a></li>
-            <li><a href="5.html">Empty</a></li>
-            <li><a href="5.html">Empty</a></li>
-        </ul>
     </header><!-- .header-->
 
     <div class="middle">
 
         <div class="container">
+
             <main class="content">
+
+                <table border="2" width="100%">
+                <caption>Оказываемые услуги</caption>
+
+                        <tr>
+                        <th>Услуги</th>
+                        <th>Цена</th>
+                        <th>Очистить</th>
+                    </tr>
+                    <tr><td>Уборка квартир, домов, офисных , складских, торговых и других помещений после ремонта.</td><td id="ono">3,5</td><td id="ono">3,5</td></tr>
+                    <tr><td>Генеральная уборка помещений</td><td id="ono">4</td><td id="ono">3,5</td></tr>
+                    <tr><td>Ежедневная или периодическая поддерживающая уборка помещений</td><td id="ono">4,5</td><td id="ono">3,5</td></tr>
+                    <tr><td>Мытье окон, элементов остекления балконов и лоджий</td><td id="ono">5</td><td id="ono">3,5</td></tr>
+                    <tr><td>Химчистка мягкой мебели и ковровых покрытий</td><td id="ono">5,5</td><td id="ono">3,5</td></tr>
+                    <tr><td></td><td id="ono">0</td><td id="ono">3,5</td></tr>
+                    <tr><td></td><td id="ono">0</td><td id="ono">3,5</td></tr>
+                    </table>
+                <input type="button" class="butt" action="1.php" value="Сохранить">
+                <input type="button" class="butt" action="2.php" value="Выйти">
 
             </main><!-- .content -->
         </div><!-- .container-->
