@@ -85,7 +85,9 @@ table.brd td {
 #ono {text-align: center;}
 td#ono {width: 100px;
             height: 60px}
-.butt {color: white;
+.butt {float: left;
+margin-left: 10px;
+color: white;
 width: 120;
 height: 30px;
 background-color: darkolivegreen;

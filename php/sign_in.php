@@ -57,12 +57,10 @@ if (isset($username)) {
 
                 <table border="2" width="100%">
                 <caption>Оказываемые услуги</caption>
-
-
-                     <tr>
-                     <th>Услуги</th>
-                     <th>Цена</th>
-                     <th>Очистить</th>
+                    <tr>
+                    <th>Услуги</th>
+                    <th>Цена</th>
+                    <th>Очистить</th>
                     </tr>
                     <tr><td>Уборка квартир, домов, офисных , складских, торговых и других помещений после ремонта.</td><td id="ono">$1000000</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
                     <tr><td>Генеральная уборка помещений</td><td id="ono">4</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
@@ -72,9 +70,12 @@ if (isset($username)) {
                     <tr><td></td><td id="ono">0</td><td id="ono"><a href="1.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
                     <tr><td></td><td id="ono">0</td><td id="ono"><a href="../php/out.php"><img src="../images/del.png" width="50" height="50"></a></td></tr>
                     </table>
-                <form>
-                <input type="submit" class="butt" action="" value="Сохранить">
-                <button class="butt" action="php/out.php">Выйти</button>
+                <br>
+                <form method="post" action="../php/out.php">
+                <input type="submit" class="butt" value="Выйти">
+                </form>
+                <form method="post" action="">
+                <input type="submit" class="butt" value="Сoхранить">
                 </form>
             </main><!-- .content -->
         </div><!-- .container-->
