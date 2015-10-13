@@ -12,3 +12,19 @@ $(document).ready(function(){
     $("#img4").click (function () {
         $("#load").load("4.html")})
 });
+$(document).ready(function(){
+    $("#services").click (function () {
+        $("#serv").load("5.html")})
+});
+$(document).ready(function(){
+    $("#Br").click (function () {
+        $("#serv").load("6.html")})
+});
+$(document).ready(function(){
+    $("#contacts").click (function () {
+        $("#serv").load("7.html")})
+});
+$(document).ready(function(){
+    $("#email").click (function () {
+        $("#serv").load("8.html")})
+});

@@ -49,10 +49,15 @@ cursor: pointer;
     float: right;
     font: normal 16px/ 1.5em Georgia, serif;}
 p.clin {
-   padding-top: 40px;
-   text-indent: 60px;
+   padding-top: 15px;
+   text-indent: 40px;
    font: normal 42px/1.5em Georgia, serif;
    color: white;
+}
+.head {margin-top: 0px;
+    margin-left: 150px;
+    float: left;
+    cursor: pointer;
 }
 
 /* Middle
@@ -99,22 +104,43 @@ p.redstr {text-indent: 90px;
 .cont {text-align: center;
         width: 280px;
         float: left;
-    font: normal 26px/1.5em Georgia, serif;}
+        font: normal 26px/1.5em Georgia, serif;
+        cursor: pointer;}
 h2 {text-align: center;
-    color: mediumvioletred;
-    font: normal Tahoma, Geneva, sans-serif;
-    line-height: 1.5    }
+        color: mediumvioletred;
+        font: normal Tahoma, Geneva, sans-serif;
+        line-height: 1.5    }
 
-#load {font-style: italic;
-    color: blue;
-    padding-top: 200px;
-    margin: 0 auto;
-    width: 900px;
-   text-align: justify;
+#load { font-style: italic;
+        color: blue;
+        padding-top: 200px;
+        margin: 0 auto;
+        width: 900px;
+        text-align: justify;
 }
-
-
-
+#serv { margin: 0 auto;
+        width: 1000px;
+        text-align: justify;
+        font: normal 22px/1.5em Georgia, serif;
+        margin-bottom: 30px;
+}
+strong {color: red}
+table {
+    border-collapse: collapse;
+}
+table th {text-align: center;}
+table th,
+table td {
+    padding: 10px;
+}
+table.brd th,
+table.brd td {
+    border: 2px solid #000;
+}
+#ono {text-align: center;}
+td#ono {width: 150px;
+    height: 60px}
+.conts{text-align: center}
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
 
