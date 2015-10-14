@@ -108,7 +108,7 @@ p.redstr {text-indent: 90px;
         cursor: pointer;}
 h2 {text-align: center;
         color: mediumvioletred;
-        font: normal Tahoma, Geneva, sans-serif;
+        font: normal Georgia, sans-serif;
         line-height: 1.5    }
 
 #load { font-style: italic;
@@ -141,6 +141,11 @@ table.brd td {
 td#ono {width: 150px;
     height: 60px}
 .conts{text-align: center}
+
+.yashare-auto-init {margin: 0 auto;
+text-align: center}
+
+
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
 
@@ -148,10 +153,18 @@ td#ono {width: 150px;
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-
-	margin: -100px auto 0;
+    background: -webkit-linear-gradient(-90deg, rgba(62,63,59,1) 0, rgba(112,112,112,1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(62,63,59,1) 0, rgba(112,112,112,1) 100%);
+    background: linear-gradient(180deg, rgba(62,63,59,1) 0, rgba(112,112,112,1) 100%);
+    background-position: 50% 50%;
+    margin: -100px auto 0;
 	min-width: 400px;
-	max-width: 1200px;
-	height: 100px;
-    border: solid 5px coral;
+	max-width: 1198px;
+	height: 160px;
+    border: solid 1px cornsilk;
 	}
+.property {width: 420px;
+    float: right;
+    font: normal 18px/1.5em Georgia, serif;
+    color: white;}
+.img1 {z-index: +1}
