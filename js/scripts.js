@@ -28,3 +28,8 @@ $(document).ready(function(){
     $("#email").click (function () {
         $("#serv").load("8.html")})
 });
+$(document).ready ( function(){
+    $(".link").click(function() {
+        return false;
+    });
+});
